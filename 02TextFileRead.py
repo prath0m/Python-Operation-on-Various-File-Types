@@ -1,0 +1,7 @@
+file = open("myinfo.txt","r")
+# data= file.readline()
+# data= file.readline()
+# print(data)
+data= file.read()
+print(data)
+file.close()
